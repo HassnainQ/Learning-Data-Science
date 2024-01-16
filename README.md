@@ -17,6 +17,10 @@ Depending on your niche, and the kind of project you're working on, the Data Lif
 7. Data Management
 8. Data Destruction
 
+<p align="center">
+  <img src="https://online.hbs.edu/PublishingImages/HBS_Steps_in_the_Data_Life_Cycle_Chart_V2_2.jpg" alt="drawing" width="200"/>
+</p>
+
 The 2 extra steps are Data Generation and Data Destruction (the beginning and the end, quite literally) which th rest of the 6 are sandwiched in. Here we're going to leave the bread and focus on the 6 layers inside.
 
 _Note: You may come across the same steps with different names or stacked together, but essentially they fulfill the same purpose._
