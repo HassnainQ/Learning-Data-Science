@@ -51,7 +51,7 @@ _Find & Replace:_ With Find & Replace you can change instance of a particular nu
 To find something, **press Ctrl+F**, or go to **Home > Editing > Find & Select > Find.**
 To replace text or numbers, **press Ctrl+H**, or go to **Home > Editing > Find & Select > Replace.**
 
-Bulk removing variable data inside your data. For example a column in your dataset contants letters inside bracks. i.e. Amazon (amzn), Brasil (BR), Canada (CAN) and you want to remove (amzn), (BR) and (CAN) in one go. You can do that by typing (*) in the replace box.
+Bulk removing variable data inside your data. For example a column in your dataset contants letters inside bracks. i.e. Amazon (amzn), Brasil (BR), Canada (CAN) and you want to remove (amzn), (BR) and (CAN) in one go. You can do that by using the asterik character * _(*)_ in the replace box. Since * can remove all characters in a cell, if you come across data which contats * inside and you want to remove it, you'll have to use ~ before * i.e. ~* to remove the * from your text.
 
 Keep in mind that F&R will replace every instance of your entry so in somecases it can disrupt your data. For example, if you're replacing eat with blank space, it will also remove eat from defeat. 
 
@@ -60,15 +60,17 @@ _Advanced Filter:_ Use the "Advanced Filter" option in the "Data" tab to filter 
 2. **Fix structural errors:**
 
 _Flash Fill:_ Excel's Flash Fill feature (available in the "Data" tab) can automatically fill values based on patterns it recognizes. This is particularly useful for cleaning and formatting data quickly.
+
 _Named Ranges:_ Organize your data using named ranges, which can simplify formulas and make your data structure more robust.
 Filter unwanted outliers:
 
 _Sorting:_ Sort data in ascending or descending order to identify outliers easily. This can be done in the "Data" tab.
 
-Removing variable spacing: You can using _=trim_ forumla to fix the space in your cell and make it consistent for your column/.
-Fixing the case of letters: Sometimes you may come acorss cells where the text is written in a combination or upper and lowercase alphabets. You can use _=Proper_ forumla to ensure that each starting word has a captial letter or =lowercase or =uppercase if you want a consistent case for your data.
+_Removing variable spacing:_ You can using _=trim_ forumla to fix the space in your cell and make it consistent for your column/.
 
-**Text to Column:** Before splitting a text in a column to multiple columns ensure that you have a new columns already added on your worksheet. Then go to **Data > Data Tools > Text to Column** > and add your instruction for where excel should break your text and split it to columns. It's preferred to do with via _delimiter._ 
+_Fixing the case of letters:_ Sometimes you may come acorss cells where the text is written in a combination or upper and lowercase alphabets. You can use _=Proper_ forumla to ensure that each starting word has a captial letter or =lowercase or =uppercase if you want a consistent case for your data.
+
+_Text to Column:_ Before splitting a text in a column to multiple columns ensure that you have a new columns already added on your worksheet. Then go to **Data > Data Tools > Text to Column** > and add your instruction for where excel should break your text and split it to columns. It's preferred to do with via _delimiter._ 
 
 3. **Handle missing data:**
  
