@@ -47,6 +47,14 @@ _Note: These steps are based on Excel, I'll add more (PowerBi, Tableau, SQL) lat
 
 _Conditional Formatting for Duplicates:_ Highlight duplicate values using conditional formatting. This can be found in the "Home" tab. It doesn't remove duplicates but makes them visually noticeable.
 
+_Find & Replace:_ With Find & Replace you can change instance of a particular number/s or a text string in your dataset. 
+To find something, **press Ctrl+F**, or go to **Home > Editing > Find & Select > Find.**
+To replace text or numbers, **press Ctrl+H**, or go to **Home > Editing > Find & Select > Replace.**
+
+Bulk removing variable data inside your data. For example a column in your dataset contants letters inside bracks. i.e. Amazon (amzn), Brasil (BR), Canada (CAN) and you want to remove (amzn), (BR) and (CAN) in one go. You can do that by typing (*) in the replace box.
+
+Keep in mind that F&R will replace every instance of your entry so in somecases it can disrupt your data. For example, if you're replacing eat with blank space, it will also remove eat from defeat. 
+
 _Advanced Filter:_ Use the "Advanced Filter" option in the "Data" tab to filter unique records or copy them to another location.
 
 2. **Fix structural errors:**
@@ -70,6 +78,8 @@ _Data Validation with Dropdown Lists:_ Create dropdown lists using data validati
 _Cell Comments:_ Add comments to cells to provide additional information or instructions, enhancing data documentation.
 
 ## Excel Exercices ##
+
+1. **Split Columns**
 
 
 # Week2 #
