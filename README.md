@@ -19,4 +19,33 @@ Depending on your niche, and the kind of project you're working on, the Data Lif
 
 The 2 extra steps are Data Generation and Data Destruction (the beginning and the end, quite literally) which th rest of the 6 are sandwiched in. Here we're going to leave the bread and focus on the 6 layers inside.
 
-## Data Collection ##
+_Note: You may come across the same steps with different names or stacked together, but essentially they fulfill the same purpose._
+
+### Data Collection ###
+
+### Cleaning & Processing ###
+1. **Remove duplicate or irrelevant observations:**
+
+_Conditional Formatting for Duplicates:_ Highlight duplicate values using conditional formatting. This can be found in the "Home" tab. It doesn't remove duplicates but makes them visually noticeable.
+
+_Advanced Filter:_ Use the "Advanced Filter" option in the "Data" tab to filter unique records or copy them to another location.
+
+2. **Fix structural errors:**
+
+_Flash Fill:_ Excel's Flash Fill feature (available in the "Data" tab) can automatically fill values based on patterns it recognizes. This is particularly useful for cleaning and formatting data quickly.
+_Named Ranges:_ Organize your data using named ranges, which can simplify formulas and make your data structure more robust.
+Filter unwanted outliers:
+
+_Sorting:_ Sort data in ascending or descending order to identify outliers easily. This can be done in the "Data" tab.
+
+3. **Handle missing data:**
+ 
+_PivotTables:_ Create PivotTables to summarize and handle missing data more efficiently. Excel automatically excludes empty cells from calculations in PivotTables.
+
+_IFERROR Function:_ Use the IFERROR function to replace errors, including #DIV/0! or #VALUE!, with a specified value or an alternative calculation.
+
+4. **Validate and QA:**
+
+_Data Validation with Dropdown Lists:_ Create dropdown lists using data validation to ensure that data entered meets predefined criteria.
+
+_Cell Comments:_ Add comments to cells to provide additional information or instructions, enhancing data documentation.
