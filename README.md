@@ -10,7 +10,7 @@ Depending on your niche, and the kind of project you're working on, the Data Lif
 
 1. Data Generation
 2. Data Collection
-3. Data Cleaning & Processing
+3. Data Cleaning or Processing
 4. Data Analysis
 5. Data Visualization & Interpretation
 6. Data Storage
@@ -23,7 +23,14 @@ _Note: You may come across the same steps with different names or stacked togeth
 
 ### Data Collection ###
 
-### Cleaning & Processing ###
+### Cleaning or Processing ###
+Be it cooking or working with data, the first thing you need to do is clean!
+Data gathered from different sources is often messy/dirty. There maybe (will be) errors, inconsistencies, duplicates, irrelevant data, or missing values. These issues can provide inaccurate analysis results and misleading insights. Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. [1](https://www.tableau.com/learn/articles/what-is-data-cleaning)
+
+When you have to cook something, you sort out your ingredients and dishes, you either take them to the sink or grab a cleaning paper (or luckely you find out that it's already cleaned). Similarly when you start working with dataset, the data inside it might need a different levels of cleaning. Now if there are 1000s of rows and 10s of columns (maybe more) you can't just start cleaning each cell (that's crazy!). Instead, you can implement a series of steps and use features that can help you clean your data in bulk. 
+
+_Note: These steps are based on Excel, I'll add more (PowerBi, Tableau, SQL) later._
+
 1. **Remove duplicate or irrelevant observations:**
 
 _Conditional Formatting for Duplicates:_ Highlight duplicate values using conditional formatting. This can be found in the "Home" tab. It doesn't remove duplicates but makes them visually noticeable.
