@@ -1,7 +1,15 @@
 # Learning-Data-Science
 Find out resources, tools, and most importantly the steps you will have to take to kickstart your data science journey. This resource is primarily made for this interested in data science for data analysis
 
+## Table of Contents
+- [Week 1](#Week1)
+- [Week 2](#Week2)
+
+
+
 **Note**: _This repo documents resources that can help you better understand data science particularly for data analytics. It contains my experience as a participant of the [atomcamp's](https://www.atomcamp.com/dsbootcamp/) data science bootcamp and from the open world of the internet_
+
+# Week1 #
 
 ## Data Life Cycle ##
 Working with data can be messy and complicated so in order to avoid any "foreseen" issues, it's important to pursue data with a systems/structural approach. This is where the term Data Life Cycle Life comes in. As the name denotes, it provides a framework to illustrate how data flows from one step to another, and depending the task at hand, which step you could initiate your work from.
@@ -60,3 +68,8 @@ _IFERROR Function:_ Use the IFERROR function to replace errors, including #DIV/0
 _Data Validation with Dropdown Lists:_ Create dropdown lists using data validation to ensure that data entered meets predefined criteria.
 
 _Cell Comments:_ Add comments to cells to provide additional information or instructions, enhancing data documentation.
+
+## Excel Exercices ##
+
+
+# Week2 #
