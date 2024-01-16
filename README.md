@@ -65,6 +65,11 @@ Filter unwanted outliers:
 
 _Sorting:_ Sort data in ascending or descending order to identify outliers easily. This can be done in the "Data" tab.
 
+Removing variable spacing: You can using _=trim_ forumla to fix the space in your cell and make it consistent for your column/.
+Fixing the case of letters: Sometimes you may come acorss cells where the text is written in a combination or upper and lowercase alphabets. You can use _=Proper_ forumla to ensure that each starting word has a captial letter or =lowercase or =uppercase if you want a consistent case for your data.
+
+**Text to Column:** Before splitting a text in a column to multiple columns ensure that you have a new columns already added on your worksheet. Then go to **Data > Data Tools > Text to Column** > and add your instruction for where excel should break your text and split it to columns. It's preferred to do with via _delimiter._ 
+
 3. **Handle missing data:**
  
 _PivotTables:_ Create PivotTables to summarize and handle missing data more efficiently. Excel automatically excludes empty cells from calculations in PivotTables.
